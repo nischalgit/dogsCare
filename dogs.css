@@ -6,7 +6,7 @@
 .container {
   width: 63%;
   margin: 5rem auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* display: flex; */
 }
 
@@ -30,12 +30,12 @@ img {
 
 .w30 {
   width: 30%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .w70 {
   width: 70%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .w65 {
