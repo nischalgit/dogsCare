@@ -251,6 +251,10 @@ input[type="search"] {
   height: 40vh;
 }
 
+.pet-lover p {
+  color: white;
+}
+
 /* footer ================*/
 .footer {
   background-color: #060606;
