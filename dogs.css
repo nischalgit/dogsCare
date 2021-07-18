@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  width: 63%;
+  margin: 5rem auto;
+  border: 1px solid black;
+  /* display: flex; */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+/* Layouts ================== */
+.w50 {
+  width: 50%;
+}
+
+.w40 {
+  width: 45%;
+}
+
+.w30 {
+  width: 30%;
+  border: 1px solid black;
+}
+
+.w70 {
+  width: 70%;
+  border: 1px solid black;
+}
+
+.w65 {
+  width: 65%;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.d-wrap {
+  flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 0.3em 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+p {
+  color: #707070;
+}
+
+.button {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1em;
+  background-color: white;
+  color: black;
+}
+
+.buttons {
+  margin: 2em 0;
+}
+
+.transparent {
+  background-color: transparent;
+  color: white;
+}
+
+.align-centre {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  padding: 2rem 0;
+}
+
+.tile-content {
+  margin: 1rem;
+}
+
+.tile {
+  margin: 1rem;
+  border: 1px solid black;
+}
+
+.d-flex {
+  display: flex;
+}
+
+/* main section */
+
+header ul,
+.nav-bar {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  color: white;
+  padding: 1rem 1rem;
+}
+
+.view .logo {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.logo,
+.menu {
+  padding: 0.6rem 0;
+  font-weight: 600;
+}
+
+.view .menu {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.view li,
+.logo {
+  margin: 0.5rem 1rem;
+}
+
+.view {
+  height: 98vh;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.63),
+      rgba(255, 255, 255, 0)
+    ),
+    url(https://wp.w3layouts.com/dogscare/wp-content/themes/dogscare/assets/images/banner1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main,
+.pet-lover > .container {
+  margin: 10rem auto;
+  box-sizing: border-box;
+  padding: 5rem 0;
+  text-align: left;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.view p {
+  color: white;
+}
+
+h1 span {
+  font-weight: bold;
+}
+.main-content {
+  width: 50%;
+}
+
+.main-content p {
+  /* margin: ; */
+}
+
+input[type="search"] {
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+
+/* Services ============*/
+.tile a {
+  color: #f85a40;
+}
+
+.services .read-more {
+  margin: 1rem 0;
+}
+/* facilities */
+
+.dog-img {
+  margin: 1rem 4rem;
+}
+
+/* Customers =================== */
+.customer-img {
+  display: inline-block;
+}
+.customer-img img {
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 2rem;
+}
+
+/* .customer-primary-body {
+  width: 250px;
+} */
+
+.customer-secondary-body {
+  margin: 2rem 0.5rem;
+}
+
+/* Gallery Grid Images ================*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  /* grid-gap: 5px; */
+  grid-auto-rows: 215px;
+}
+
+.big {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 2;
+}
+
+.big img {
+  height: 100%;
+}
+
+/* Behaviours ==================*/
+.facilities img {
+  width: 200px;
+}
+
+.facility {
+  width: 300px;
+  margin: 1rem 2rem;
+  /* padding: 1rem; */
+}
+
+/* Pet Lovers ======================== */
+
+.pet-lover {
+  background: url(https://wp.w3layouts.com/dogscare/wp-content/themes/dogscare/assets/images/bg.jpg)
+    center no-repeat fixed;
+  background-size: cover;
+  height: 40vh;
+}
+
+/* footer ================*/
+.footer {
+  background-color: #060606;
+  color: white;
+  padding: 0.5rem;
+}
+
+li {
+  display: block;
+}
+/* footer ===================*/
+
+.category-list li::before {
+  content: "\00BB";
+}
